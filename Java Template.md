@@ -1,6 +1,6 @@
 # Basic DataStructure
 
-{:toc}
+<!-- TOC -->
 
 
 

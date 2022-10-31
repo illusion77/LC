@@ -1,4 +1,9 @@
 # Basic DataStructure
+
+[TOC]
+
+
+
 ## String
 ```java
 String s = "asdefgasdefg";
@@ -268,7 +273,7 @@ while(l <= r){
     else l = mid+1;
 }
 ```
-## 手写lower_bound
+## lower_bound
 ```java
 // 存在返回[0,n-1], 不存在返回n
 public int lower_bound(int[] a, int target) {
@@ -281,7 +286,7 @@ public int lower_bound(int[] a, int target) {
     return l;
 }
 ```
-## 手写upper_bound
+## upper_bound
 ```java
 // 存在返回[0,n-1], 不存在返回n
 public int upper_bound(int[] a, int target) {
@@ -295,11 +300,11 @@ public int upper_bound(int[] a, int target) {
 }
 
 ```
-## 满足差值<1e-6
+## eps<1e-6
 ```cpp
 // 结果返回l
 double l = 0, r = n;
-while(r-l > 1e-6){
+while(r-l >= 1e-6){
     double mid = l+(r-l)/2;
     if(check(mid)) l = mid;  //l和r依据题意互换
     else r = mid;

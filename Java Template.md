@@ -1,9 +1,5 @@
 # Basic DataStructure
 
-<!-- TOC -->
-
-
-
 ## String
 ```java
 String s = "asdefgasdefg";
